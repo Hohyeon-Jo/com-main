@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  /* body {
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 5s 5s
+}
+
+body.reveal {
+    opacity: 1;
+    overflow-y: auto
+}
+
+body.hidden {
+    opacity: 0
+} */
+
+  
+  #page1,
+  #page2,
+  .mainContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+   font-size: 30px;
+    
+  }
+  
+  /* a {
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 10px 30px;
+  } */
+  
+  #page1,#page3 {
+    background-color: black;
+  }
+  
+  #page2 {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 90%;
+  }
+  .h_1{
+    height: 15%;
+  }
+
+
+  h1{
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h4{
+    /* float: left; */
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+  }
+ 
+  /* .fadein_1 {
+    animation: fadeIn 5s;
+    font-size: 30px;
+    -webkit-animation: fadeIn 3s;
+  } */
+  /* .a1{
+    animation: fadeout 19s;
+    -webkit-animation: fadeout 5s;
+  } */
+  .slide-in {
+    animation: change 0.5s ease forwards;
+  }
+ @keyframes change {
+    from {
+      transform: translateX(100%);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+ }
+
+ /* @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity:1; }
+ }
+
+ @keyframes fadeout {
+    100% { opacity: 0; }
+    0% { opacity: 1;}
+ } */
+ 
+  ul{width: 100%; margin-top: 4%; display: flex;  justify-content: center;
+    align-items: center;}
+  li{ border: 0; display: inline; text-align: center; text-decoration: black;}
+        .in:hover{ color: white; font-size: 50px;}
+        a{
+            text-decoration: none; color: white;
+        }
+        
+        .li{margin-left: 5%;}
+
+.team{
+      color: white;
+      margin-top: 46%;
+      text-align: center;
+    }
+        

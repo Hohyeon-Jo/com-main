@@ -1,0 +1,195 @@
+
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0 auto;
+            padding: 0 auto;
+            height: 6000px;
+            width: 100%;
+            background-color: black;
+        }
+        div{
+           text-align: center;
+           color: white;
+            width: 100%;
+            height: 6000px;
+        }
+
+        .contentMain{
+            display: flex;
+            height: 90%;
+        }
+
+        .mainContainer{
+            width: 100%;
+            height: 100vh;
+
+        }
+        .navbar{
+            width: 100%;
+            height: 10%;
+            
+        }
+        .navbar1{
+            width: 100%;
+            height: 5%;
+            background-color: rgb(11,11,11);
+            position: fixed;
+        }
+        .logo{
+                    /* margin-top: 0.6%; */
+                    margin-left: 1.3%;
+                    float: left;
+                    width: 8%;
+                    height: 60px;
+        }
+        li{
+            list-style: none;
+            float: right;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .ul{
+            width: 250px;
+            overflow: hidden;
+            margin: 12px auto;
+            margin-left: 61%;
+            margin-right: 29%;
+            float: left;
+            display: inline;
+            margin-top: -60px;
+        }
+        .ul > li{
+            width: 200px;
+            
+            text-align: center;
+            line-height: 40px;
+            /* background-color: black; */
+        
+        }
+        .sub >li {
+            text-align: center;
+            line-height: 50px;
+            width: 100%;
+            
+            
+        }
+        .sub{
+            height: 0;
+            overflow: hidden;
+            text-align: center;
+            flex-direction: column;
+            display: flex;
+            width: 100%;
+            padding-left:0 ;
+        }
+
+
+        .sub a{
+            text-align: center;
+            
+            color: white;
+        }
+        .ul >li:hover{
+            background-color: rgb(192, 192, 192,0.5);
+            transition-duration: 0.5s;
+        }
+        .ul > li:hover .sub{
+            height: 310px;
+            transition-duration: 1S;
+        }
+        .sub > li:hover{
+            background-color: rgba(192, 192, 192, 0.138);
+        }
+        .hea{
+            color: white;
+            font-size: 20px;
+        }
+        .left{
+            width: 20%;
+            
+            
+            height: 100%;
+        }
+        .left1{
+            width: 19.5%;
+            
+            position: fixed;
+            height: 100%;
+        }
+
+        .center{
+            width: 60%;
+           
+            
+        }
+        #img{
+            width:30%;
+            margin-top: 20%;
+            
+        }
+        .h1{
+            font-size: 50px;
+        }
+       
+        .h2{
+            margin-top: 70%;
+        }
+        h2{
+            margin-top: 20%;
+            font-size: 40px;
+        }
+        span{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .home2{
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            left: 0px;
+            right: 0px;
+            height: 30px;
+            bottom: 0;
+        }
+     
+        .home3{
+            background-color: white;
+            width: 80px;
+            height: 25px;
+            text-align: center;
+            margin-left: 47%;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        .right{
+            width: 20%;
+            
+        }
+        .right1{
+            width: 20%;
+            
+            position: fixed;
+            margin-left: 80.2%;
+        }
+        
+        .leftPhoto{
+            width: 100%;
+            margin-top: 60%;
+            opacity: 0.5;
+        }
+
+        .rightPhoto{
+            width: 100%;
+            margin-top: 52%;
+            opacity: 0.5;
+        }
+        

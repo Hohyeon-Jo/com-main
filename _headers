@@ -1,0 +1,9 @@
+# a path:
+/templates/main0-1.html
+  # headers for that path:
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+# another path:
+/templates/main0-1.html
+  # headers for that path:
+  X-Frame-Options: SAMEORIGIN
